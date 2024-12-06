@@ -1,11 +1,11 @@
-import React from 'react'
+
 
 function LandingLayout() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <div>
+
+        </div>
+    )
 }
 
-export default LandingLayout ;
+export default LandingLayout;
