@@ -4,7 +4,7 @@ function LandingLayout({children}) {
     return (
         <div>
             
-            
+
             <div className="LandingContainer">
                 {children}
             </div>
@@ -14,6 +14,7 @@ function LandingLayout({children}) {
 
 LandingLayout.propTypes = {
     children: PropTypes.node.isRequired,
+    //* .node, .array, .boolean, .string, .number
 }
 
 export default LandingLayout;
