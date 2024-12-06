@@ -1,11 +1,10 @@
-import React from 'react'
 
 function LandingScreen() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <div>
+
+        </div>
+    )
 }
 
-export default LandingScreen
+export default LandingScreen ;
