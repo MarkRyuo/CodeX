@@ -3,7 +3,7 @@
 function LandingLayout() {
     return (
         <div>
-
+            
         </div>
     )
 }
