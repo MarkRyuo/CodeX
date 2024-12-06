@@ -11,9 +11,10 @@ function LandingLayout({children}) {
     )
 }
 
-export default LandingLayout;
-
 LandingLayout.PropTypes = {
     children: PropTypes.node.isRequired,
 }
+
+export default LandingLayout;
+
 
