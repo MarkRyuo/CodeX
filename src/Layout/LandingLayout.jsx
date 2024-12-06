@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'; // ES6
 
 function LandingLayout({children}) {
     return (
@@ -13,5 +13,7 @@ function LandingLayout({children}) {
 
 export default LandingLayout;
 
-LandingLayout.P
+LandingLayout.PropTypes = {
+    children: PropTypes.node.isRequired,
+}
 
