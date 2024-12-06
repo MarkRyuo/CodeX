@@ -4,8 +4,8 @@ function LandingLayout() {
     return (
         <div>
             
-            <div>
-                
+            <div className="LandingContainer">
+
             </div>
         </div>
     )
