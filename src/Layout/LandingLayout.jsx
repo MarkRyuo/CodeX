@@ -12,3 +12,6 @@ function LandingLayout({children}) {
 }
 
 export default LandingLayout;
+
+LandingLayout.P
+
