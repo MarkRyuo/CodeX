@@ -11,7 +11,7 @@ function LandingLayout({children}) {
     )
 }
 
-LandingLayout.PropTypes = {
+LandingLayout.propTypes = {
     children: PropTypes.node.isRequired,
 }
 
