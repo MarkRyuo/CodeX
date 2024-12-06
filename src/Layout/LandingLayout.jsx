@@ -8,4 +8,4 @@ function LandingLayout() {
   )
 }
 
-export default LandingLayout
+export default LandingLayout ;
