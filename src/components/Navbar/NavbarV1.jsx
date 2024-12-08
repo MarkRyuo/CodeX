@@ -4,7 +4,8 @@ import { useState } from "react";
 function NavbarV1() {
 
     const [linkName] =  useState([
-        { id:1, linkName: ""}
+        { id: 1, linkName: "Sample1"},
+        { id: 2, linkName: ""}
     ]);
 
 
