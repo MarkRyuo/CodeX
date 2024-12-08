@@ -4,7 +4,7 @@ import { useState } from "react";
 function NavbarV1() {
 
     const [linkName] =  useState([
-        { id: 1, imgLogo: '/path-img' ,linkName: "Sample1"}
+        { id: 1, imgLogo: '/path-img' ,linkName: "Sample1", path: '/path-to'}
     ]);
 
 
@@ -16,14 +16,14 @@ function NavbarV1() {
                     <img src={linkNames.imgLogo} alt="Logo" />
 
                     <ul className="container-wrapper">
-                        <li><Link to={"/link-to"}>{linkName}</Link></li>
+                        <li><Link to={linkNames.}>{linkName}</Link></li>
                         <li><Link to={"/link-to"}>{linkName}</Link></li>
                         <li><Link to={"/link-to"}>{linkName}</Link></li>
                     </ul>
                 </nav>
             })}
         </>
-    ) ;
+    );
 }
 
 export default NavbarV1;
