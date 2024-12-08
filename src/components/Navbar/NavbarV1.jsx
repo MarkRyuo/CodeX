@@ -13,7 +13,7 @@ function NavbarV1() {
 
         <>
             {linkName.map((linkNames) => {
-                <nav className="container-NavbarV1">
+                <nav className="container-NavbarV1" key={linkNames.id}>
                     <img src="path-to-logo" alt="Logo" />
 
                     <ul className="container-wrapper">
