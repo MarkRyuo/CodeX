@@ -23,7 +23,7 @@ function NavbarV1() {
                 </nav>
             })}
         </>
-    )
+    ) ;
 }
 
 export default NavbarV1;
