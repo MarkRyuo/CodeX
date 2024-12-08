@@ -17,7 +17,7 @@ function NavbarV1() {
 
                     <ul className="container-wrapper">
                         <li><Link to={linkNames.path}>{linkName}</Link></li>
-                        <li><Link to={"/link-to"}>{linkName}</Link></li>
+                        <li><Link to={linkNames.path}>{linkName}</Link></li>
                         <li><Link to={"/link-to"}>{linkName}</Link></li>
                     </ul>
                 </nav>
