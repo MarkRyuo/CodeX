@@ -3,12 +3,10 @@ import { Link } from "react-router";
 function LandingNavbar() {
     return (
         <nav>
-            <img src="#" alt="Logo" />
+            <img src="path-to-logo" alt="Logo" />
 
             <ul>
-                <li>
-                    <Link>Ho</Link>
-                </li>
+                <li as={Link} ></li>
             </ul>
         </nav>
     )
