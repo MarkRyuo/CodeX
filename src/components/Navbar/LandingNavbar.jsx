@@ -1,10 +1,10 @@
-
+import { Link } from "react-router";
 
 function LandingNavbar() {
     return (
-        <div>
-
-        </div>
+        <nav>
+            <img src="#" alt="Logo" />
+        </nav>
     )
 }
 
