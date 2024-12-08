@@ -5,16 +5,10 @@ function NavbarV1() {
         <nav className="NavbarV1Container">
             <img src="path-to-logo" alt="Logo" />
 
-            <ul>
-                <li>
-                    <Link to={"/link-to"}>Link</Link>
-                </li>
-                <li>
-                    <Link to={"/link-to"}>Link</Link>
-                </li>
-                <li>
-                    <Link to={"/link-to"}>Link</Link>
-                </li>
+            <ul className="container-wrapper">
+                <li><Link to={"/link-to"}>Link</Link></li>
+                <li><Link to={"/link-to"}>Link</Link></li>
+                <li><Link to={"/link-to"}>Link</Link></li>
             </ul>
         </nav>
     )
