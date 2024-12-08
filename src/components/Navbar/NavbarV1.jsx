@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 function NavbarV1() {
     return (
-        <nav>
+        <nav className="NavbarV1Container">
             <img src="path-to-logo" alt="Logo" />
 
             <ul>
