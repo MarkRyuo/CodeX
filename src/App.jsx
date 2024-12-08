@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 
 import './App.css'
+import LandingScreen from "./pages/LandingScreen";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={ <} />
+          <Route path="/" element={ <LandingScreen />} />
         </Routes>
       </BrowserRouter>
     </>
