@@ -7,11 +7,8 @@ function NavbarV1() {
 
             <ul className="container-wrapper">
                 <li><Link to={"/link-to"}>Link</Link></li>
-                <li>
-                    <Link to={"/link-to"}>Link</Link>
-                </li>
-                <li>
-                    <Link to={"/link-to"}>Link</Link>
+                <li><Link to={"/link-to"}>Link</Link></li>
+                <li><Link to={"/link-to"}>Link</Link>
                 </li>
             </ul>
         </nav>
