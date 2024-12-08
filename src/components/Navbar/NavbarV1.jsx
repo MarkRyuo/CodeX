@@ -4,12 +4,12 @@ import { useState } from "react";
 function NavbarV1() {
 
     const [linkName] =  useState([
-        {}
+        { id:1, linkName: ""}
     ]);
 
 
     return (
-        <nav className="NavbarV1Container">
+        <nav className="container-NavbarV1">
             <img src="path-to-logo" alt="Logo" />
 
             <ul className="container-wrapper">
