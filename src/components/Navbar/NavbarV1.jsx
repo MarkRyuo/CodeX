@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-function LandingNavbar() {
+function NavbarV1() {
     return (
         <nav>
             <img src="path-to-logo" alt="Logo" />
@@ -20,4 +20,4 @@ function LandingNavbar() {
     )
 }
 
-export default LandingNavbar;
+export default NavbarV1;
