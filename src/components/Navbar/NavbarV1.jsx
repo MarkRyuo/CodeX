@@ -3,7 +3,9 @@ import { useState } from "react";
 
 function NavbarV1() {
 
-    const [linkName, setlinkName] =  ;
+    const [linkName] =  useState([
+        {}
+    ]);
 
 
     return (
