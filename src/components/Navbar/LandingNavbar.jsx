@@ -6,7 +6,15 @@ function LandingNavbar() {
             <img src="path-to-logo" alt="Logo" />
 
             <ul>
-                <li as={Link} ></li>
+                <li>
+                    <Link to={"/link-to"}>Link</Link>
+                </li>
+                <li>
+                    <Link to={"/link-to"}>Link</Link>
+                </li>
+                <li>
+                    <Link to={"/link-to"}>Link</Link>
+                </li>
             </ul>
         </nav>
     )
