@@ -16,7 +16,7 @@ function NavbarV1() {
                     <img src={linkNames.imgLogo} alt="Logo" />
 
                     <ul className="container-wrapper">
-                        <li><Link to={linkNames.}>{linkName}</Link></li>
+                        <li><Link to={linkNames.path}>{linkName}</Link></li>
                         <li><Link to={"/link-to"}>{linkName}</Link></li>
                         <li><Link to={"/link-to"}>{linkName}</Link></li>
                     </ul>
