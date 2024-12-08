@@ -10,15 +10,20 @@ function NavbarV1() {
 
 
     return (
-        <nav className="container-NavbarV1">
-            <img src="path-to-logo" alt="Logo" />
 
-            <ul className="container-wrapper">
-                <li><Link to={"/link-to"}>{linkName}</Link></li>
-                <li><Link to={"/link-to"}>{linkName}</Link></li>
-                <li><Link to={"/link-to"}>{linkName}</Link></li>
-            </ul>
-        </nav>
+        <>
+            {linkName.map((linkNames) => {
+                <nav className="container-NavbarV1">
+                    <img src="path-to-logo" alt="Logo" />
+
+                    <ul className="container-wrapper">
+                        <li><Link to={"/link-to"}>{linkName}</Link></li>
+                        <li><Link to={"/link-to"}>{linkName}</Link></li>
+                        <li><Link to={"/link-to"}>{linkName}</Link></li>
+                    </ul>
+                </nav>
+            })}
+        </>
     )
 }
 
