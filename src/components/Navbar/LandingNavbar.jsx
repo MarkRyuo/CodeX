@@ -6,7 +6,9 @@ function LandingNavbar() {
             <img src="#" alt="Logo" />
 
             <ul>
-                <li><Link>Home</Link></li>
+                <li>
+                    <Link>Ho</Link>
+                </li>
             </ul>
         </nav>
     )
