@@ -1,11 +1,11 @@
-import React from 'react'
+
 
 function LandingNavbar() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <div>
+
+        </div>
+    )
 }
 
-export default LandingNavbar
+export default LandingNavbar;
