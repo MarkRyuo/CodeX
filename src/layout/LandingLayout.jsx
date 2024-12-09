@@ -4,7 +4,7 @@ function LandingLayout({children}) {
     return (
         <div>
             
-
+            <NavBarV1 />
             <div className="LandingContainer">
                 {children}
             </div>
