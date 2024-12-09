@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import './App.css'
+import './dist/App.css'
 import LandingScreen from "./pages/LandingScreen";
 
 
@@ -21,3 +21,7 @@ function App() {
 }
 
 export default App ;
+
+
+
+
