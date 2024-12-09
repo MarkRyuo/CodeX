@@ -1,4 +1,4 @@
-import LandingLayout from '../Layout/LandingLayout'
+import LandingLayout from '../layout/LandingLayout'
 
 
 function LandingScreen() {
