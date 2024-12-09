@@ -1,9 +1,9 @@
 
 function LandingScreen() {
     return (
-        <div>
+        <LandingLayout>
             <h1>Hello World</h1>
-        </div>
+        </LandingLayout>
     )
 }
 
