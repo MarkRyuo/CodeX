@@ -1,3 +1,5 @@
+import LandingLayout from '../Layout/LandingLayout'
+
 
 function LandingScreen() {
     return (
