@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import './dist/App.css'
+import './dist/css/App.css' ;
 import LandingScreen from "./pages/LandingScreen";
 
 
