@@ -3,7 +3,7 @@ import '../../dist/css/NavbarV1.css'
 
 function NavbarV1() {
 
-    const LinkName = 'Link' ;
+    const LinkName = 'Sample Link' ;
 
 
     return (
