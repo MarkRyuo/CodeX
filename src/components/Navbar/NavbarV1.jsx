@@ -7,10 +7,10 @@ function NavbarV1() {
 
 
     return (
-        <nav className="navbar-container">
-            <img src="path-to-logo" alt="Logo" className="navbar-logo-img"/>
+        <nav className="navbar">
+            <img src="path-to-logo" alt="Logo" className="navbar-logo"/>
 
-            <ul className="container-wrapper">
+            <ul className="navbar-body">
                 <li><Link to={"/link-to"}>{LinkName}</Link></li>
                 <li><Link to={"/link-to"}>{LinkName}</Link></li>
                 <li><Link to={"/link-to"}>{LinkName}</Link></li>

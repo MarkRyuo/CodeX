@@ -1,15 +1,15 @@
 
-.navbar-container {
+.navbar {
     display: flex;
     height: auto;
     justify-content: space-around;
     box-shadow: $base-box-shadow;
 
-    .navbar-logo-img {
+    .navbar-img {
         border: $base-border-thickness solid;
     }
 
-    .container-wrapper {
+    .navbar-body {
         display: flex;
         gap: 10px;    
 
