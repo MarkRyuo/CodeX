@@ -6,7 +6,7 @@ function NavbarV1() {
 
 
     return (
-        <nav className="NavbarV1Container">
+        <nav className="navbar-container">
             <img src="path-to-logo" alt="Logo" />
 
             <ul className="container-wrapper">
