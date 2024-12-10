@@ -4,6 +4,7 @@
     display: flex;
     height: auto;
     justify-content: space-around;
+    box-shadow: $base-box-shadow;
 
     .navbar-logo-img {
         border: $base-border-thickness solid;
