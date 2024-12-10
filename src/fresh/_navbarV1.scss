@@ -1,4 +1,20 @@
 
 .navbar-container {
     border: $base-border-thickness solid ;
+    display: flex;
+    height: auto;
+
+    .navbar-logo-img {
+        border: $base-border-thickness solid;
+    }
+
+    .container-wrapper {
+        display: flex;
+
+        li {
+            
+        }
+    }
+
+
 }
