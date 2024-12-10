@@ -1,0 +1,35 @@
+
+.navbar {
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    box-shadow: $base-box-shadow;
+
+    .navbar-brand {
+        width: 70px;
+        height: 70px;
+
+        .navbar-logo {
+            border-radius: 50px;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .navbar-body {
+        display: flex;
+        gap: 10px;    
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: $text;
+            }
+        }
+    }
+
+
+}

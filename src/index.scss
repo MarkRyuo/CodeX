@@ -3,10 +3,10 @@
 //* Sass Read Top to bottom
 
 //* Variables & Functions
-@import 'variables' ;
+@import './fresh/variables' ;
 
 //* Base & Layout
-@import 'base'
+@import './fresh/index'
 
 //* Colors
 
@@ -15,3 +15,4 @@
 
 
 //* Utilities (margin, padding, opacity)
+
